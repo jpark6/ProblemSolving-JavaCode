@@ -1,10 +1,10 @@
-import java.sql.Array;
+package programmers;
+
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
-public class ProgrammersTupleKakao {
+public class TupleKakao {
     public int[] solution(String s) {
 
         s = s.substring(2)
@@ -35,7 +35,7 @@ public class ProgrammersTupleKakao {
 
     public static void main(String[] args) {
         String s = "{{2},{2,1},{2,1,3},{2,1,3,4}}";
-        ProgrammersTupleKakao ptk = new ProgrammersTupleKakao();
+        TupleKakao ptk = new TupleKakao();
         ptk.solution(s);
         ptk.solution("{{20,111},{111}}");
     }
